@@ -233,18 +233,18 @@
                                  .hero-container {
                                    .hero-menu {
                                      position: fixed;
-                                     left: 0; /* Keep left at 0, use transform for sliding */
+                                     left: 0; 
                                      top: 0;
                                      width: 210px;
                                      height: 100%;
-                                     background-color: #fff; /* Temporary background for debugging */
+                                     background-color: #fff; 
                                      z-index: 1000; /* Increased z-index */
                                      transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
-                                     transform: translateX(-100%); /* Hidden by default */
+                                     transform: translateX(-100%); 
                                      opacity: 0;
                                      visibility: hidden;
                                      &.active {
-                                       transform: translateX(0) ; /* Slide in */
+                                       transform: translateX(0) ; 
                                        opacity: 1 ;
                                        visibility: visible;
                                      }
