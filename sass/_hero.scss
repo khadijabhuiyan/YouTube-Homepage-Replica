@@ -1,0 +1,341 @@
+.hero{
+     margin: 15px;
+    .hero-container{
+        display: flex;
+        .hero-menu{
+            width: 210px;
+            cursor: pointer;
+            height: 100vh;
+            transition: all 0.3s ease;
+            overflow-y: hidden;
+           &:hover{
+             overflow-y: scroll;
+           }
+           .hero-menu-holder{
+           
+            ul{
+                 .first-child{
+                    width: 180px;
+                    height: 38px;
+                    background: #D9D9D9;
+                    border-radius: 10px; 
+                    font-weight: bold;
+                }
+                margin-bottom: 50px;
+                        color: inherit;
+                        color: inherit;
+                border-bottom: 1px solid #D9D9D9 ;
+
+                }
+                li{
+                    padding: 5px 0px 0px 28px;
+                    transition: all 0.3s ease;
+                    margin-bottom: 20px;
+                    list-style: none;
+                &:hover{
+                    width: 180px;
+                    height: 38px;
+                    background: #D9D9D9;
+                    border-radius: 10px
+                }
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        display: flex;
+                        gap: 20px;
+                        i{ 
+                            font-size: 24px;
+                        }
+                        span{
+                            margin-top: 5px;
+                        }
+                        img{
+                            width: 25px;
+                            height: 30px;
+                    
+                        }
+                    }
+            }
+                       } 
+                      .you-btn{
+                       border: none;
+                       background: #fff;
+                       font-size: 16px;
+                       padding: 0px 0px 10px 30px;
+                       font-weight: bold;
+                      }
+                   }
+                   .text{
+                       background: #fff;
+                       font-size: 16px;
+                       padding: 0px 0px 10px 30px;
+                       font-weight: bold;
+                   }
+                   
+                    footer{
+                       
+                       .footer-holder{
+                           .terms-and-condition{
+                               text-decoration: none;
+                               color: #6e6060;
+                               .about{
+                                   padding: 15px;
+                               }
+                               .copyright{
+                                   padding: 15px;
+                               }
+                           }
+                       }
+                   }
+                   .hero-content{
+                       padding: 20px;
+                       .hero-content-holder{
+                                           .links-wrapper{
+                                               ul{
+                                                   display: flex;
+                                                   flex-wrap: wrap;
+                                                   gap: 10px;                                   
+                                   li{
+                                       list-style: none;
+                                       a{
+                                           text-decoration: none;
+                                           color: inherit;
+                                           font-weight: bold;
+                                           padding: 8px 12px;
+                                           background: #F2F2F2;
+                                           border-radius: 10px;
+                                           
+                                   }
+                               }
+                                           }
+                                       }
+                                       .video-thumbnail-wrapper{
+                                                margin: 20px;
+                                               .video-thumbnail{
+                                                   display: flex;
+                                                   flex-direction: column;
+                                                   width: 422px;
+                                                   height: 300px;
+                                                   border-radius: 10px;
+                                                   overflow: hidden;
+                                                   transition: all 0.3s ease;
+                                                   cursor: pointer;
+                                                   &:hover{
+                                                       background-color: #D9D9D9;
+                                                   }
+                                                  
+                                                   .img-holder{
+                                                       padding-top: 15px;
+                                                       margin-left: 25px;
+                                                       width: 385px;
+                                                       height: 200px;
+                                                       
+                                                       img{
+                                                           width: 100%;
+                                                           height: 100%;
+                                                           object-fit: cover;
+                                                           border-radius:10px ;
+                                                       }
+                                                   }
+                                                   .heading{
+                                                       display: flex;
+                                                       gap: 20px;
+                                                       justify-content: space-between;
+                                                       margin: 10px;
+                                                       
+                                                       .profile{
+                                                           width: 50px;
+                                                           height: 50px;
+                                                           border-radius: 50%;
+                                                           overflow: hidden;
+                                                           img{
+                                                               width: 100%;
+                                                               height: 100%;
+                                                               object-fit: contain;
+                                                           }
+                                                           
+                                                       }
+                                                       .title{
+                                                       }
+                                                       .dot-menu{
+                                                           i{}
+                                                       }
+                                                   }
+                                                   .channel-name{
+                                                       margin-top: -15px;
+                                                       padding-left: 55px;
+                                                       span{
+                                                           font-size: 14px;
+                                                           font-weight: 500;
+                                                           color:#866a6a;
+                                                       }
+                                                       i{
+                                                           font-size: 12px;
+                                                       }
+                                                   }
+                                                   .view-time-holder{
+                                                        margin-top: 5px;
+                                                       padding-left: 55px;
+                                                       span{
+                                                           font-size: 14px;
+                                                           font-weight: 500;
+                                                           color:#866a6a;
+                                                       }
+                                                   }
+                                               }
+                                           }
+                                   }
+                                  
+                                    
+                               }
+                           }
+                           }
+                           
+                           @media (max-width: 1080px) {
+                               .hero {
+                                 .hero-container {
+                                   .hero-menu {
+                                     width: 70px;
+                                     .hero-menu-holder {
+                                       ul {
+                                         .first-child {
+                                           width: 60px;
+                                           span {
+                                             display: none;
+                                           }
+                                         }
+                                         li {
+                                           padding: 5px 0px 0px 18px;
+                                           &:hover {
+                                             width: 60px;
+                                             height: 38px;
+                                           }
+                                           a {
+                                             span {
+                                               display: none;
+                                             }
+                                           }
+                                         }
+                                       }
+                                       .you-btn,
+                                       .text,
+                                       footer {
+                                         display: none;
+                                       }
+                                     }
+                                   }
+                                 }
+                               }
+                             }
+                           
+                           @media (max-width: 768px) {
+                               .hero {
+                                 .hero-container {
+                                   .hero-menu {
+                                     position: fixed;
+                                     left: 0; /* Keep left at 0, use transform for sliding */
+                                     top: 0;
+                                     width: 210px;
+                                     height: 100%;
+                                     background-color: #fff; /* Temporary background for debugging */
+                                     z-index: 1000; /* Increased z-index */
+                                     transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+                                     transform: translateX(-100%); /* Hidden by default */
+                                     opacity: 0;
+                                     visibility: hidden;
+                                     &.active {
+                                       transform: translateX(0) !important; /* Slide in */
+                                       opacity: 1 !important;
+                                       visibility: visible !important;
+                                     }
+                                   }
+                                   .hero-content {
+                                     width: 100%;
+                                     transition: transform 0.3s ease;
+                                     &.shifted {
+                                       transform: translateX(210px); 
+                                     }
+                                     .hero-content-holder {
+                                       .links-wrapper {
+                                         ul {
+                                           flex-wrap: wrap;
+                                           li {
+                                             a {
+                                               padding: 5px 8px;
+                                               font-size: 14px;
+                                             }
+                                           }
+                                         }
+                                       }
+                                       .video-thumbnail-wrapper {
+                                         margin: 10px 0;
+                                         .video-thumbnail {
+                                           width: 100%;
+                                           height: auto;
+                                           .img-holder {
+                                             width: 95%;
+                                             margin-left: 2.5%;
+                                             height: 200px;
+                                           }
+                                           .heading {
+                                             margin: 10px 5px;
+                                             .profile {
+                                               width: 40px;
+                                               height: 40px;
+                                             }
+                                             .title {
+                                               font-size: 16px;
+                                             }
+                                           }
+                                           .channel-name,
+                                           .view-time-holder {
+                                             padding-left: 50px;
+                                             span {
+                                               font-size: 12px;
+                                             }
+                                           }
+                                         }
+                                       }
+                                     }
+                                   }
+                                 }
+                               }
+                             }
+                           
+                           @media (max-width: 480px) {
+                               .hero {
+                                 .hero-container {
+                                   .hero-content {
+                                     padding: 10px;
+                                     .hero-content-holder {
+                                       .links-wrapper {
+                                        flex-wrap: wrap;
+                                        overflow: hidden;
+                                         ul {
+                                          
+                                           gap: 5px;
+                                           li {
+                                             a {
+                                               padding: 3px 6px;
+                                               font-size: 12px;
+                                             }
+                                           }
+                                         }
+                                       }
+                                       .video-thumbnail-wrapper {
+                                         .video-thumbnail {
+                                           .img-holder {
+                                             height: 150px;
+                                           }
+                                           .heading {
+                                             .title {
+                                               font-size: 14px;
+                                             }
+                                           }
+                                         }
+                                       }
+                                     }
+                                   }
+                                 }
+                               }
+                             }
