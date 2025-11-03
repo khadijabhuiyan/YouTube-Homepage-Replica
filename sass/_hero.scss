@@ -244,9 +244,9 @@
                                      opacity: 0;
                                      visibility: hidden;
                                      &.active {
-                                       transform: translateX(0) !important; /* Slide in */
-                                       opacity: 1 !important;
-                                       visibility: visible !important;
+                                       transform: translateX(0) ; /* Slide in */
+                                       opacity: 1 ;
+                                       visibility: visible;
                                      }
                                    }
                                    .hero-content {
